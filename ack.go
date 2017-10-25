@@ -47,7 +47,7 @@ func main() {
 	//setup and parse our arguments
 	name 			:=	flag.String( "name","Name Not Provided","Name of Person that is acknowledging alert" )
 	triggerId 		:=	flag.String( "triggerId","","zabbix trigger ID - numeric ID for trigger used for acking alerts via api" )
-	zabbixServer 	:=	flag.String( "zabbixServer","<default ip>", "zabbix server address" )
+	zabbixServer 		:=	flag.String( "zabbixServer","<default ip>", "zabbix server address" )
 	zabbixUser 		:= 	flag.String( "zabbixUser","<default user>", "zabbix user for acking alerts" )
 	zabbixPw   		:= 	flag.String( "zabbixPw","", "zabbix user's password" )
 	flag.Parse()
