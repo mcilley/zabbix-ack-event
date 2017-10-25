@@ -1,9 +1,7 @@
 # zabbix-ack-event
-script to ack zabbix event(s), created for use as an agi script for asterisk
+### Script to ack zabbix event(s), created for use as an agi script for asterisk
 
-
-Example Usage in Asterisk - extensions.conf:
-
+### Example Usage in Asterisk - extensions.conf:
 ```
  ;;PLayback the name of the digit and ack alert in zabbix
  exten => 1,1,Set(RESPOND=1)
