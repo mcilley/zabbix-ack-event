@@ -1,5 +1,6 @@
 # zabbix-ack-event
 #### Script to ack zabbix event(s), created for use as an agi script for asterisk
+Used in https://github.com/mcilley/asterisk-zabbix-phone-escalation
 
 #### Example Usage in Asterisk - extensions.conf:
 ```
